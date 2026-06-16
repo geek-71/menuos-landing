@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #FBF7F0;
+    color: #1A1410;
+  }
+}
+
+@layer utilities {
+  /* Subtle paper grain texture */
+  .paper-grain {
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(26,20,16,0.035) 1px, transparent 0);
+    background-size: 18px 18px;
+  }
+
+  .text-balance { text-wrap: balance; }
+
+  /* Strike-through draw-on animation for "old way" list */
+  .strike-on-scroll {
+    position: relative;
+  }
+  .strike-on-scroll::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: 50%;
+    height: 2px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.6s ease-out;
+  }
+  .strike-on-scroll.is-struck::after {
+    transform: scaleX(1);
+  }
+
+  /* Torn paper edge */
+  .torn-edge-bottom {
+    clip-path: polygon(
+      0% 0%, 100% 0%, 100% 92%,
+      96% 96%, 91% 91%, 86% 97%, 81% 92%, 76% 98%,
+      71% 91%, 66% 96%, 61% 90%, 56% 97%, 51% 92%,
+      46% 98%, 41% 91%, 36% 96%, 31% 90%, 26% 97%,
+      21% 92%, 16% 98%, 11% 91%, 6% 96%, 0% 92%
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
