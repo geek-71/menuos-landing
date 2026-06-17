@@ -18,11 +18,11 @@ export async function POST(req: Request) {
 
     const auth = new google.auth.GoogleAuth({
       credentials: {
-        client_email: process.env.GOOGLE_CLIENT_EMAIL,
-        private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(
+        client_email: process?.env?.GOOGLE_CLIENT_EMAIL,
+        private_key: process?.env?.GOOGLE_PRIVATE_KEY?.replace(
           /\\n/g,
           "\n"
-        ),
+        ).replace(/^"(.*)"$/, "$1"),
       },
       scopes: [
         "https://www.googleapis.com/auth/spreadsheets",
@@ -34,7 +34,7 @@ export async function POST(req: Request) {
     });
 
     await sheets.spreadsheets.values.append({
-      spreadsheetId: process.env.GOOGLE_SHEET_ID,
+      spreadsheetId: process?.env?.GOOGLE_SHEET_ID,
       range: "Sheet1!A:F",
       valueInputOption: "USER_ENTERED",
       requestBody: {
