@@ -11,6 +11,10 @@ export const metadata: Metadata = {
     title: 'menumine — Your menu, minus the laminate.',
     description: 'Scan a QR, see the menu, order with confidence. Built for Indian restaurants and cafés.',
   },
+  icons: {
+    icon: '/icon.svg',
+    apple: '/apple-icon.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
