@@ -7,7 +7,7 @@ const STEPS = [
   {
     n: '02',
     title: 'Check and publish',
-    body: 'Review what was extracted, fix anything that needs it, add photos. Pick a theme that matches your dining room. Go live for a one-time ₹199.',
+    body: 'Review what was extracted, fix anything that needs it, add photos. Pick a theme that matches your dining room. Go live for a one-time ₹99.',
   },
   {
     n: '03',

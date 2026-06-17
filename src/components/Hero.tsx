@@ -51,7 +51,7 @@ export function Hero() {
             </div>
 
             <p className="mt-5 text-sm text-muted">
-              One-time fee. No subscription. Live in under 10 minutes.
+             Digital Menu. Better Experience. Live in under 10 minutes.
             </p>
           </div>
 

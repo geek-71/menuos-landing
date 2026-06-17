@@ -4,7 +4,7 @@ export function PhoneMockup() {
       {/* Phone frame */}
       <div className="relative bg-ink rounded-[2.2rem] p-2.5 shadow-2xl shadow-ink/30">
         {/* Notch */}
-        <div className="absolute top-2.5 left-1/2 -translate-x-1/2 w-20 h-5 bg-ink rounded-full z-20" />
+        <div className="absolute top-2.5 left-1/2 -translate-x-1/2 w-15 md:w-20 h-5 bg-ink rounded-full z-10" />
 
         {/* Screen */}
         <div className="relative bg-[#fdfaf6] rounded-[1.7rem] overflow-hidden h-[540px]">

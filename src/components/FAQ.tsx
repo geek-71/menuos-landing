@@ -19,13 +19,13 @@ const FAQS = [
     a: 'Yes. Add variants like Full/Half/Quarter or Plain/Butter/Garlic with their own prices, set once per dish. Customers pick the one they want right on the menu.',
   },
   {
-    q: 'What happens after I pay the ₹199?',
+    q: 'What happens after I pay the ₹99?',
     a: 'Your menu goes live immediately at your own link, and your QR code is ready to download and print. There\'s nothing else to set up.',
   },
   { q: "Is payment integration available?", a: "Payment gateway integration is available on the Enterprise plan. Contact us to discuss your setup and get a custom quote." },
   // {
   //   q: 'Is there a monthly fee?',
-  //   a: 'No. ₹199 is the only charge, ever, for your menu to stay live. We don\'t do subscriptions.',
+  //   a: 'No. ₹99 is the only charge, ever, for your menu to stay live. We don\'t do subscriptions.',
   // },
   {
     q: 'What if my menu is handwritten or in a different language?',

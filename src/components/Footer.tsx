@@ -16,21 +16,22 @@ export function Footer() {
           <div className="flex gap-10 text-sm">
             <div className="space-y-2.5">
               <p className="text-paper/40 uppercase text-xs tracking-wide mb-1">Product</p>
-              <a href="#features" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Features</a>
-              <a href="#pricing" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Pricing</a>
-              <a href="#how-it-works" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">How it works</a>
+              <a href="/#features" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Features</a>
+              <a href="/#pricing" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Pricing</a>
+              <a href="/#how-it-works" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">How it works</a>
             </div>
             <div className="space-y-2.5">
               <p className="text-paper/40 uppercase text-xs tracking-wide mb-1">Account</p>
               <a href="https://menu-os-six.vercel.app" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Sign in</a>
               <a href="https://menu-os-six.vercel.app" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Get started</a>
+              <a href="/contact-us" className="block hover:text-paper transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper/40">Contact Us</a>
             </div>
           </div>
         </div>
 
         <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs">
           <p>© {new Date().getFullYear()} menumine. All rights reserved.</p>
-          <p>Made for restaurant owners, not developers.</p>
+          <p>Made for restaurant owners</p>
         </div>
       </div>
     </footer>

@@ -15,7 +15,7 @@ export function FinalCTA() {
           href="#pricing"
           className="inline-block mt-9 bg-paper text-tandoor font-medium px-7 py-3.5 rounded-full hover:text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paper focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
         >
-          Get your menu online at ₹199
+          Get your menu online at ₹99
         </a>
       </div>
     </section>

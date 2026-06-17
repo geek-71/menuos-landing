@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="bg-brand-surface min-h-screen section-padding pt-32 pb-20 md:pt-40 md:pb-28">
-      <div className="container-max">
+      <div className="max-w-6xl mx-auto px-5 md:px-8">
 
         {/* Page heading */}
         <div className="max-w-xl mx-auto text-center mb-14">

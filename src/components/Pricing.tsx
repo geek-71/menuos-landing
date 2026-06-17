@@ -10,7 +10,7 @@ const INCLUDED = [
 const PLANS = [
   {
     name: "Starter",
-    price: "₹199",
+    price: "₹99",
     duration: "3 months",
     description: "Perfect for trying out your digital menu.",
     cta: "Get started",
@@ -25,7 +25,7 @@ const PLANS = [
   },
   {
     name: "Growth",
-    price: "₹349",
+    price: "₹249",
     duration: "6month + 1 months(free)",
     description: "Best value for growing restaurants.",
     featured: true,
@@ -69,13 +69,13 @@ export function Pricing() {
           One price. Pay once.
         </h2>
         <p className="text-ink/65 mb-10">
-          Not a subscription. Not a &ldquo;starting from.&rdquo; You pay ₹199 when
+          Not a subscription. Not a &ldquo;starting from.&rdquo; You pay ₹99 when
           you publish, and your menu stays live.
         </p>
 
         <div className="bg-paper border-2 border-ink rounded-3xl p-8 md:p-10 text-left">
           <div className="flex items-end gap-2 justify-center mb-1">
-            <span className="font-display text-6xl font-medium">₹199</span>
+            <span className="font-display text-6xl font-medium">₹99</span>
           </div>
           <p className="text-center text-muted text-sm mb-8">one-time onboarding fee</p>
 
@@ -184,11 +184,9 @@ export function Pricing() {
             {plan.cta}
           </a>
 
-          <p className="text-center text-xs text-muted mt-3">
-            {plan.name === "Custom"
-              ? "Dedicated implementation support"
-              : "UPI, cards & net banking via Razorpay"}
-          </p>
+          {plan.name === "Custom" && <p className="text-center text-xs text-muted mt-3">
+            Dedicated implementation support"
+          </p>}
         </div>
       ))}
     </div>
