@@ -28,9 +28,6 @@ export async function POST(req: Request) {
         "https://www.googleapis.com/auth/spreadsheets",
       ],
     });
-
-    console.log(`auth ==================================================================${process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n")}`);
-
     const sheets = google.sheets({
       version: "v4",
       auth,

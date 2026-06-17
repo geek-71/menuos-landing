@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: pageMetadata.contact.title,
   description: pageMetadata.contact.description,
   alternates: {
-    canonical: `${siteConfig.url}/contact`,
+    canonical: `${siteConfig.url}/contact-us`,
   },
   openGraph: {
-    url: `${siteConfig.url}/contact`,
+    url: `${siteConfig.url}/contact-us`,
     title: pageMetadata.contact.title,
     description: pageMetadata.contact.description,
   },

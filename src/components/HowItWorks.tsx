@@ -2,7 +2,7 @@ const STEPS = [
   {
     n: '01',
     title: 'Upload your menu',
-    body: 'Snap a photo or upload a PDF — even a multi-page one. Gemini reads the layout and pulls out every category, item, and price in seconds.',
+    body: 'Snap a photo or upload a PDF — even a multi-page one.Integrated AI reads the layout and pulls out every category, item, and price in seconds.',
   },
   {
     n: '02',
