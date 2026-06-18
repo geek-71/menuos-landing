@@ -112,7 +112,7 @@ export function ContactForm() {
       console.error("Contact form error:", err);
       setState("error");
       setErrorMessage(
-        "Something went wrong. Please try again or email us directly."
+        "Something went wrong. Please try again or Call us directly."
       );
     }
   }
