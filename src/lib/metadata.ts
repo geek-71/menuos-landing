@@ -28,7 +28,7 @@ export const siteConfig = {
   contactEmail: "hello@menumine.in",
 
   // TODO: Your WhatsApp number for quick contact (optional — delete if unused)
-  whatsappNumber: "+919942672046",
+  whatsappNumber: "+919942671046",
 
   // TODO: Replace with your actual signup URL (the external link)
   signupUrl: "https://app.menumine.in/signup",
