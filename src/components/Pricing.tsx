@@ -26,7 +26,7 @@ const PLANS = [
   {
     name: "Growth",
     price: "₹249",
-    duration: "6month + 1 months(free)",
+    duration: "6months + 1 month(free)",
     description: "Best value for growing restaurants.",
     featured: true,
     cta: "Choose Growth",
